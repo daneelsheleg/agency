@@ -266,7 +266,9 @@ margin-left: 4%;
 
 
 													/*OUR / MANY GRID     */ 
-
+.block-grid{
+	margin-bottom: 150px;
+}
 .text-our{
 	text-align: center;
 }
@@ -299,7 +301,8 @@ margin-left: 4%;
 }
 .grid-grid-grid{
 	display: grid;
-	grid-template-columns:  repeat(4, 1fr);
+	grid-column-gap: 20px;
+	grid-template-columns:  repeat(2, 1fr);
 }
 .column-text{
 	color: #60606E;
@@ -308,4 +311,126 @@ margin-left: 4%;
 .column-text:hover{
 	background: #7BEEC7;
 	color:#FFFFFF;
+}
+.Department{
+	margin-bottom: 20px;
+}
+.column-one{
+	width: 100%;
+}
+.grid-mobile{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+															/*OUR / MANY GRID  (mobile)   */ 
+@media screen and (max-width: 1200px){
+	.column-one{
+		width: 100%;
+		margin-left: 0px;
+	}
+	.line-three{
+		display: none;
+	}
+}
+@media screen and (max-width: 1100px){
+.grid-grid-grid{
+	grid-template-columns:  repeat(1, 1fr);
+}
+.column-href{
+	text-align: center;
+	
+}
+.text-our{
+	display: none;
+}
+.column-one{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.block-grid .container{
+	padding: 0px;
+	margin: 10%;
+}
+.grid-mobile{
+	
+	display: grid;
+	grid-template-columns: repeat(3, 1fr)
+}
+}
+
+
+
+
+												/*GREEN_BLOCK*/ 
+
+.green-block{
+	width: 100%;
+	height: 340px;
+	background-color: #7BEEC7;
+}
+.grid-new{
+	padding-top: 50px;
+	display: grid;
+	grid-gap: 100px;
+	grid-template-columns:1fr 1fr;
+}
+.button-white{
+	margin-right: 100px;
+	padding:10px 25px 10px 25px;
+	background-color: #FFFFFF;
+	color: #7BEEC7;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-family: 'bold';
+}
+.text-work{
+	margin-bottom: 20px;
+	line-height: 50px;
+	color:#FFFFFF;
+	font-size: 30px;
+	font-family: 'bold';
+}
+.white-block{
+	width: 100%;
+	height: 240px;
+	background-color: #FFFFFF;
+}
+.text-in-block-stay{
+	margin-bottom: 10px;
+	font-size: 24px;
+	font-family: 'bold';
+	margin-top:15px;
+	margin-left: 5px;
+	line-height: 33px;
+}
+.text-in-block-lorem{
+	margin-left: 5px;
+	font-family: 'OpenSans';
+	line-height: 25px;
+	font-size: 14px;
+	color:#60606E;
+	margin-bottom: 25px;
+}
+.input{
+	margin-left: 5px;
+	padding: 11px;
+	width: 90%;
+	position: relative;
+}
+form .btn{
+	border-radius: 0px;
+}
+.submit{
+	color:#FFFFFF;
+	padding:9.5px 45px 9.5px 45px;
+	background-color: #7BEEC7;
+	position: absolute;
+	margin-left: -100px;
+}
+										/*GREEN_BLOCK (mobile)*/ 
+@media screen and  (max-width:1200px){
+	
 }

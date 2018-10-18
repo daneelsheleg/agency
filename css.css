@@ -26,6 +26,9 @@ body{
 	background-size: cover;
 	margin-bottom: 180px;
 }
+.text-center{
+	margin-bottom: 100px
+}
 .akad{
 	font-size: 18px;
 	color:#60606E;
@@ -143,6 +146,9 @@ margin-left: 4%;
 		height: 140px;
 		overflow:hidden;
 		text-overflow:ellipsis	;
+	}
+	.text-center{
+		margin-bottom: 50px;
 	}
 }
 @media screen and (max-width: 400px){
@@ -569,23 +575,30 @@ form .btn{
 }
 }
 @media screen and  (max-width:500px){
+	
 	.table-first{		
 		transform: translate(-80%);
-}
-}
+}}
+
 @media screen and  (max-width:425px){
-	.table-first{		
-	display: flex;
-	flex-direction: column;}
-	.cell{
-		margin-left: auto;
-		margin-right: auto;
-		justify-content: center;
-	}
-	.input{
-		transform: translate(-70%);
-		margin-left: 50%;
-	}
+
+ .cell{
+ 	display: block;
+ 	justify-content: center;
+ 	}}
+ .email-cell{
+ 	margin-left: 30%;
+ }
+
+
+@media screen and  (max-width:425px){
+ .submit{
+ 	background-color: #60606E;;
+ }
+ .text-in-block-stay{
+ 	font-size: 18px;
+ 	line-height: 20px;
+ }
 }
 
 
@@ -626,6 +639,9 @@ font-family: 'OpenSans';
 .fa:last-child{
 	margin-right:0px;
 }
+.row-blocks{
+	display: none;
+}
 															/*Footer (mobile)*/ 
 @media screen and  (max-width:1200px){
 .footer-grid{
@@ -637,5 +653,84 @@ font-family: 'OpenSans';
 }
 .footer-text{
 	text-align: center;
+}
+}
+@media screen and  (max-width:770px){
+	.footer, .icon-end{
+		display: none;
+	}
+	.but-but-but{
+	display: block;
+}
+.but-button{
+	width: 250px;
+}
+.item {
+	width: 250px;
+}
+.row-blocks{
+	justify-content: center;
+	display: flex;
+	margin-bottom: 50px;
+}
+}
+@media screen and  (max-width:550px){
+.but-button{
+	width: 150px;
+}
+.item {
+	width: 100%;
+}
+}
+@media screen and  (max-width:400px){
+.but-button{
+	width: 120px;
+}
+.dropdown-menu {
+	min-width: 20px;
+}
+.item a{
+	text-align: center;
+}
+}
+
+
+								/*end*/
+@media screen and  (max-width:340px){
+	.line-bord{
+		display: none;
+	}
+	.block{
+		justify-content: center;
+	}
+	.text-agency{
+		width: 200px;
+	}
+	.text-center{
+		margin-bottom: 20px
+	}
+	.background, .text-choose{
+		margin-bottom: 50px;
+	}
+	.grid{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-areas: 
+		'one' 
+		'two '
+ 		'three' 
+ 		'four ';
+	}
+	.dep{
+		width: 200px;
+	}
+	.item {
+	width: 80%;
+}
+.grid-new{
+	padding-top: 0px;
+}
+.submit{
+	padding: 5px;
+	margin-left: 15%
 }
 }

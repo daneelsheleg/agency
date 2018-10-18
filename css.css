@@ -422,9 +422,9 @@ margin-left: 4%;
   text-align: center
 	}
 }
-@media screen and (max-width: 770px){
+@media screen and (max-width: 767px){
 	.mob{
-		grid-template-columns: 50% 50%;
+		grid-template-columns: 60% 50%;
 	}
 	.column-one{
 		display: none;

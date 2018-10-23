@@ -327,7 +327,6 @@ body{
 
 
 
-
 													/*OUR / MANY GRID     */ 
 .block-grid{
 	margin-bottom: 150px;
@@ -374,10 +373,23 @@ body{
 													color: #60606E;
 													padding: 5px 20px 5px 20px;
 												}
-												.column-text:hover{
+												.column-text:active{
 													background: #7BEEC7;
 													color:#FFFFFF;
 												}
+												.text-all{
+													color: white
+												}
+												.text-all:link{
+													background: #7BEEC7;
+													padding: 5px 20px 5px 20px;
+													margin-right: 10px;
+												}
+												.column-text:hover, .text-all:hover{
+													background: #7BEEC7;
+													color:#FFFFFF;
+												}
+
 												.but-but{
 													display: none;
 												}
@@ -499,7 +511,7 @@ body{
 					font-size: 30px;
 					font-family: 'bold';
 				}
-						.white-block{
+						.white-block-in-green-block{
 							width: 100%;
 							height: 240px;
 							background-color: #FFFFFF;
@@ -577,7 +589,7 @@ body{
 			text-align: center;
 		}
 
-				.white-block{
+				.white-block-in-green-block{
 					height: 150px;
 				}
 				.text-in-block-lorem{
@@ -641,7 +653,7 @@ body{
 
 }
 @media screen and  (max-width:343px){
-.white-block{
+.white-block-in-green-block{
 	height: 180px;
 }
 }
@@ -725,7 +737,7 @@ body{
 	margin-right: 0px;
 	max-width: 1000px;
 }
-		.footer, .icon-end{
+		.footer{
 			display: none;
 		}
 				.row-blocks{
